@@ -1,4 +1,12 @@
 package org.pioneer;
 
-public class Pioneer {
+public final class Pioneer {
+
+    private Pioneer(){
+
+    }
+
+    public static void main(String[] args){
+        new Pioneer();
+    }
 }
